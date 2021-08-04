@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HelpersFramework"
-  spec.version      = "1.0"
+  spec.version      = "1.1"
   spec.summary      = "HelpersFramework to install on a new projects"
 
   # This description is used to generate tags and improve search results.
