@@ -30,6 +30,7 @@
 		2011491826BAC298008CCD54 /* TimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011491726BAC298008CCD54 /* TimeHelper.swift */; };
 		2011491A26BAC2A3008CCD54 /* UtilsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011491926BAC2A3008CCD54 /* UtilsHelper.swift */; };
 		2011491C26BAC2A8008CCD54 /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011491B26BAC2A8008CCD54 /* ViewHelper.swift */; };
+		203C180526BBCB65003ED06E /* ChangesFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203C180426BBCB65003ED06E /* ChangesFiles.swift */; };
 		E3DBD1DE02D015944B222973 /* Pods_HelpersFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EBFBCCED5ED7AD4075429B /* Pods_HelpersFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		2011491726BAC298008CCD54 /* TimeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeHelper.swift; sourceTree = "<group>"; };
 		2011491926BAC2A3008CCD54 /* UtilsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsHelper.swift; sourceTree = "<group>"; };
 		2011491B26BAC2A8008CCD54 /* ViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
+		203C180426BBCB65003ED06E /* ChangesFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangesFiles.swift; sourceTree = "<group>"; };
 		66224F42510564EB7FE26298 /* Pods-HelpersFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpersFramework.release.xcconfig"; path = "Target Support Files/Pods-HelpersFramework/Pods-HelpersFramework.release.xcconfig"; sourceTree = "<group>"; };
 		8D2BD7497A00617C49106BD1 /* Pods-HelpersFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpersFramework.debug.xcconfig"; path = "Target Support Files/Pods-HelpersFramework/Pods-HelpersFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EBFBCCED5ED7AD4075429B /* Pods_HelpersFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpersFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 		201148AC26BAABEC008CCD54 /* HelpersFramework */ = {
 			isa = PBXGroup;
 			children = (
+				203C180326BBCB52003ED06E /* Changes Files */,
 				201148DC26BAAD6B008CCD54 /* Alert Helper */,
 				201148DD26BAAD71008CCD54 /* API Request Helper */,
 				201148F026BAC126008CCD54 /* Constraints Visual Helper */,
@@ -285,13 +288,20 @@
 			path = "Constraints Visual Helper";
 			sourceTree = "<group>";
 		};
+		203C180326BBCB52003ED06E /* Changes Files */ = {
+			isa = PBXGroup;
+			children = (
+				203C180426BBCB65003ED06E /* ChangesFiles.swift */,
+			);
+			path = "Changes Files";
+			sourceTree = "<group>";
+		};
 		3FB543CACDE5670EC5EEE2A6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				8D2BD7497A00617C49106BD1 /* Pods-HelpersFramework.debug.xcconfig */,
 				66224F42510564EB7FE26298 /* Pods-HelpersFramework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -413,6 +423,7 @@
 				2011490D26BAC271008CCD54 /* MockingProtocol.swift in Sources */,
 				2011490426BAC25C008CCD54 /* LoaderHelper.swift in Sources */,
 				2011491A26BAC2A3008CCD54 /* UtilsHelper.swift in Sources */,
+				203C180526BBCB65003ED06E /* ChangesFiles.swift in Sources */,
 				201148FE26BAC248008CCD54 /* ErrorHelper.swift in Sources */,
 				2011491626BAC283008CCD54 /* TextFieldHelper.swift in Sources */,
 				2011490226BAC255008CCD54 /* Reachability.swift in Sources */,
