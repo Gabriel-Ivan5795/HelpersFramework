@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ChangesFiles: NSObject {
+public class ChangesFiles: NSObject {
 
     override init() {
         super.init()

@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-open class UtilsHelper: NSObject {
+public class UtilsHelper: NSObject {
     
     open class func scaleDown(_ actualImage: UIImage?, atFinalWidth resizeWidth: Float) -> UIImage? {
         let widthRatio = Float(CGFloat(resizeWidth) / (actualImage?.size.width ?? 0.0))

@@ -219,6 +219,13 @@ SWIFT_CLASS("_TtC16HelpersFramework11AlertHelper")
 @end
 
 
+SWIFT_CLASS("_TtC16HelpersFramework12ChangesFiles")
+@interface ChangesFiles : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC16HelpersFramework17ConstraintsHelper")
 @interface ConstraintsHelper : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

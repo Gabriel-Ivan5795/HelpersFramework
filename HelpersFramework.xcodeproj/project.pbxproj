@@ -24,13 +24,16 @@
 		2011490E26BAC271008CCD54 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011490A26BAC271008CCD54 /* RequestManager.swift */; };
 		2011490F26BAC271008CCD54 /* MockDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011490B26BAC271008CCD54 /* MockDirection.swift */; };
 		2011491026BAC271008CCD54 /* StatusRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011490C26BAC271008CCD54 /* StatusRequest.swift */; };
-		2011491226BAC278008CCD54 /* SafeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011491126BAC278008CCD54 /* SafeHelper.swift */; };
+		2011491226BAC278008CCD54 /* SafeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011491126BAC278008CCD54 /* SafeHelper.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		2011491426BAC27E008CCD54 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011491326BAC27E008CCD54 /* StringHelper.swift */; };
 		2011491626BAC283008CCD54 /* TextFieldHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011491526BAC283008CCD54 /* TextFieldHelper.swift */; };
 		2011491826BAC298008CCD54 /* TimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011491726BAC298008CCD54 /* TimeHelper.swift */; };
 		2011491A26BAC2A3008CCD54 /* UtilsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011491926BAC2A3008CCD54 /* UtilsHelper.swift */; };
 		2011491C26BAC2A8008CCD54 /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011491B26BAC2A8008CCD54 /* ViewHelper.swift */; };
 		203C180526BBCB65003ED06E /* ChangesFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203C180426BBCB65003ED06E /* ChangesFiles.swift */; };
+		20C327D726BC2611007D39B8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C327D626BC2611007D39B8 /* Alamofire.framework */; };
+		20C327D926BC2611007D39B8 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C327D826BC2611007D39B8 /* SVProgressHUD.framework */; };
+		20C327DB26BC2611007D39B8 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C327DA26BC2611007D39B8 /* SwiftKeychainWrapper.framework */; };
 		E3DBD1DE02D015944B222973 /* Pods_HelpersFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EBFBCCED5ED7AD4075429B /* Pods_HelpersFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,9 @@
 		2011491926BAC2A3008CCD54 /* UtilsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsHelper.swift; sourceTree = "<group>"; };
 		2011491B26BAC2A8008CCD54 /* ViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
 		203C180426BBCB65003ED06E /* ChangesFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangesFiles.swift; sourceTree = "<group>"; };
+		20C327D626BC2611007D39B8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C327D826BC2611007D39B8 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C327DA26BC2611007D39B8 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftKeychainWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66224F42510564EB7FE26298 /* Pods-HelpersFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpersFramework.release.xcconfig"; path = "Target Support Files/Pods-HelpersFramework/Pods-HelpersFramework.release.xcconfig"; sourceTree = "<group>"; };
 		8D2BD7497A00617C49106BD1 /* Pods-HelpersFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpersFramework.debug.xcconfig"; path = "Target Support Files/Pods-HelpersFramework/Pods-HelpersFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EBFBCCED5ED7AD4075429B /* Pods_HelpersFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpersFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C327D726BC2611007D39B8 /* Alamofire.framework in Frameworks */,
+				20C327D926BC2611007D39B8 /* SVProgressHUD.framework in Frameworks */,
+				20C327DB26BC2611007D39B8 /* SwiftKeychainWrapper.framework in Frameworks */,
 				E3DBD1DE02D015944B222973 /* Pods_HelpersFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +90,9 @@
 		1B58232D0EDEC477D2F649EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20C327D626BC2611007D39B8 /* Alamofire.framework */,
+				20C327D826BC2611007D39B8 /* SVProgressHUD.framework */,
+				20C327DA26BC2611007D39B8 /* SwiftKeychainWrapper.framework */,
 				D1EBFBCCED5ED7AD4075429B /* Pods_HelpersFramework.framework */,
 			);
 			name = Frameworks;
