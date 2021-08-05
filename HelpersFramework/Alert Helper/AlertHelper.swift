@@ -60,7 +60,6 @@ open class AlertHelper: NSObject {
         guard let viewController = viewController ?? UIApplication.shared.windows.first?.rootViewController else {
             return UIAlertController.init()
         }
-        print("test")
         
         viewController.present(alertController, animated: true)
         return alertController
