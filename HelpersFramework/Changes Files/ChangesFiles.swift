@@ -12,6 +12,6 @@ class ChangesFiles: NSObject {
     override init() {
         super.init()
         
-        print("test")
+        print("testa")
     }
 }
