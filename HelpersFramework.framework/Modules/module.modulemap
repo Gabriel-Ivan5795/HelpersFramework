@@ -1,0 +1,11 @@
+framework module HelpersFramework {
+  umbrella header "HelpersFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module HelpersFramework.Swift {
+    header "HelpersFramework-Swift.h"
+    requires objc
+}
